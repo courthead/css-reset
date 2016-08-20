@@ -1,6 +1,6 @@
 /*
 Courtland Allen's CSS Reset
-v1.0.1 | May 1, 2016
+v1.1 | August 19, 2016
 License: none (public domain)
 */
 
@@ -71,6 +71,10 @@ select::placeholder {
 
 input, button, textarea {
   background-color: transparent;
+}
+
+input[type="submit"], button {
+  cursor: pointer;
 }
 
 input[type="search"] {
